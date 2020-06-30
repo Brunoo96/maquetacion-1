@@ -1,0 +1,27 @@
+@font-face{
+    font-family: OpenSans;
+    src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+body{
+    background: brown;
+}
+
+h1{
+    font-family: 'MuseoModerno', cursive;
+}
+
+h3{
+    font-family: OpenSans, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    /*colores*/
+    
+
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+

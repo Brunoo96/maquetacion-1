@@ -1,0 +1,32 @@
+#boton{
+    display: block;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 2px solid #0a2b0a;
+    transition: border 500ms, background 1s;
+
+}
+
+#boton:hover{
+    border-radius: 15px;
+    background-color: indianred;
+    border: 2px solid red;
+
+}
+
+#caja {
+    color: white;
+    width: 250px;
+    height: 250px;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 200;
+    border: 3px solid red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

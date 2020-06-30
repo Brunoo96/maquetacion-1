@@ -1,0 +1,22 @@
+body{
+    background-color: #cccccc;
+    /*background-image: url(fondos/wallpaper1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    */
+    
+
+}
+
+#caja{
+    border: solid black;
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+}
+h2{
+    background-color: black;
+    border: 5px solid red;
+    background-image: url(fondos/fondo2.jpg);
+}

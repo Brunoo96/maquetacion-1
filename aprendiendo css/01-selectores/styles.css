@@ -1,0 +1,85 @@
+/*
+############## SELECTORES #############
+*/
+
+/*SELECTOR UNIVERSAL*/
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*SELECTOR DE ETIQUETA*/
+h1{
+    background: red;
+    color: #ffffff;
+    padding: 10;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: teal;
+}
+
+footer a{
+    color: red;
+}
+/*SELECTOR DE id*/
+#titulo{
+    background: blue;
+    border: 5px solid black;
+    text-align: center;
+}
+#descripcion{
+    border: 5px blue;
+    text-decoration: underline red;
+}
+/*SELECTOR DE class*/
+.parrafo1{
+    background: orangered;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.parrafo2{
+    padding: 5px;
+    background: #1ba038;
+}
+.parrafo3{
+    padding: 10px;
+    background: black;
+    color: white;
+
+}
+
+/*SELECTOR DE ATRIBUTO*/
+
+form{
+    border: 2px solid blue
+ }
+
+#usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: bottom 15px;
+    padding: 10px;
+    width: 300px
+}
+
+input[type="submit"]{
+    background: red;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
